@@ -1,0 +1,203 @@
+atosmon@hklvapmtc024[~] $ uptime
+ 03:46:20 up 30 min,  1 user,  load average: 0.08, 0.15, 0.10
+atosmon@hklvapmtc024[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:46:51 HKT 2025
+hklvapmtc024
+10.7.175.156 10.7.175.156
+currently running JVM/Intance details
+0
+wasadm      2129       1  0 03:15 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-BTL-F_ECM_HK_01/https-BTL-F_ECM_HK_01.conf -k start
+wasadm      2647       1  0 03:15 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-PT-E_ECM_HK_01/https-PT-E_ECM_HK_01.conf -k start
+wasadm      3430       1  0 03:15 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-UAT-G_ECM_HK_01/https-UAT-G_ECM_HK_01.conf -k start
+3
+atosmon    37319   36993  0 03:46 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc024
+atosmon    37322   36993  0 03:46 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:46:52 HKT 2025
+atosmon@hklvapmtc024[~] $
+
+
+=======================================
+
+atosmon@hklvapmtc025[~] $ uptime
+ 03:48:01 up 32 min,  1 user,  load average: 0.02, 0.05, 0.08
+atosmon@hklvapmtc025[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:48:05 HKT 2025
+hklvapmtc025
+10.7.175.157 10.7.175.157
+currently running JVM/Intance details
+0
+wasadm      2092       1  0 03:16 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-BTL-F_ECM_HK_02/https-BTL-F_ECM_HK_02.conf -k start
+wasadm      2548       1  0 03:16 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-PT-E_ECM_HK_02/https-PT-E_ECM_HK_02.conf -k start
+wasadm      3280       1  0 03:16 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-UAT-G_ECM_HK_02/https-UAT-G_ECM_HK_02.conf -k start
+3
+atosmon    35869   35711  0 03:48 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc025
+atosmon    35872   35711  0 03:48 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:48:05 HKT 2025
+
+
+=====================================================
+
+
+atosmon@hklvapmtc026[~] $ uptime
+ 03:48:41 up 33 min,  1 user,  load average: 0.02, 0.07, 0.08
+atosmon@hklvapmtc026[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:48:44 HKT 2025
+hklvapmtc026
+10.7.175.158 10.7.175.158
+currently running JVM/Intance details
+0
+wasadm      2387       1  0 03:15 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-PT-E_ECM_HK_03/https-PT-E_ECM_HK_03.conf -k start
+wasadm      2788       1  0 03:15 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-UAT2-H_ECM_HK_01/https-UAT2-H_ECM_HK_01.conf -k start
+wasadm      3350       1  0 03:15 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-UAT3-I_ECM_HK_01/https-UAT3-I_ECM_HK_01.conf -k start
+3
+atosmon    37384   37274  0 03:48 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc026
+atosmon    37387   37274  0 03:48 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:48:44 HKT 2025
+
+
+
+=========================================
+
+
+atosmon@hklvapmtc027[~] $ uptime
+ 03:49:11 up 34 min,  1 user,  load average: 0.13, 0.14, 0.10
+atosmon@hklvapmtc027[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:49:13 HKT 2025
+hklvapmtc027
+10.7.175.159 10.7.175.159
+currently running JVM/Intance details
+0
+wasadm      1881       1  0 03:14 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-PT-E_ECM_HK_04/https-PT-E_ECM_HK_04.conf -k start
+wasadm      2397       1  0 03:14 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-UAT2-H_ECM_HK_02/https-UAT2-H_ECM_HK_02.conf -k start
+wasadm      3057       1  0 03:15 ?        00:00:00 /IBM/websphere/ihs85/bin/httpd -d /IBM/websphere/ihs85 -f /IBM/websphere/ihs85/config/https-UAT3-I_ECM_HK_02/https-UAT3-I_ECM_HK_02.conf -k start
+3
+atosmon    37092   37007  0 03:49 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc027
+atosmon    37095   37007  0 03:49 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:49:13 HKT 2025
+
+
+
+
+=============================================
+
+
+atosmon@hklvapmtc028[~] $ uptime
+ 03:49:40 up 34 min,  1 user,  load average: 0.01, 0.14, 0.23
+atosmon@hklvapmtc028[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:49:42 HKT 2025
+hklvapmtc028
+10.7.175.160 10.7.175.160
+currently running JVM/Intance details
+wasadm|10384||03:16|00:02:10|/IBM/websphere/DMGR/profiles/PPRD_WAS_ECM_HK_DMGR01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC028_HK_DMGR01|dmgr
+wasadm|10415||03:16|00:01:26|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC028_PT-E_APPNODE01|PT-E_WAS_ECM_HK_DC_HKLVAPMTC028_PT-E_APPNODE01
+wasadm|10416||03:16|00:01:27|/IBM/websphere/was85/profiles/BTL-F_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC028_BTL-F_APPNODE01|BTL-F_WAS_ECM_HK_DC_HKLVAPMTC028_BTL-F_APPNODE01
+wasadm|8686||03:15|00:00:55|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC028_PT-E_APPNODE01|nodeagent
+wasadm|9550||03:16|00:00:52|/IBM/websphere/was85/profiles/BTL-F_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC028_BTL-F_APPNODE01|nodeagent
+5
+0
+atosmon    39178   39095  0 03:49 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc028
+atosmon    39181   39095  0 03:49 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:49:43 HKT 2025
+
+
+
+============================================
+
+
+atosmon@hklvapmtc029[~] $ uptime
+ 03:50:11 up 34 min,  1 user,  load average: 0.10, 0.13, 0.16
+atosmon@hklvapmtc029[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:50:13 HKT 2025
+hklvapmtc029
+10.7.175.161 10.7.175.161
+currently running JVM/Intance details
+wasadm|10343||03:16|00:01:16|/IBM/websphere/was85/profiles/UAT-G_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC029_UAT-G_APPNODE01|UAT-G_WAS_ECM_HK_DC_HKLVAPMTC029_UAT-G_APPNODE01
+wasadm|10359||03:16|00:01:13|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE02/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC029_PT-E_APPNODE02|PT-E_WAS_ECM_HK_DC_HKLVAPMTC029_PT-E_APPNODE02
+wasadm|8727||03:15|00:00:48|/IBM/websphere/was85/profiles/UAT-G_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC029_UAT-G_APPNODE01|nodeagent
+wasadm|9785||03:16|00:00:46|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE02/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC029_PT-E_APPNODE02|nodeagent
+4
+0
+atosmon    39426   39345  0 03:50 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc029
+atosmon    39429   39345  0 03:50 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:50:13 HKT 2025
+
+
+
+
+==================================================
+
+
+atosmon@hklvapmtc030[~] $ uptime
+ 03:50:35 up 34 min,  1 user,  load average: 0.07, 0.14, 0.20
+atosmon@hklvapmtc030[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:50:36 HKT 2025
+hklvapmtc030
+10.7.175.162 10.7.175.162
+currently running JVM/Intance details
+wasadm|10417||03:16|00:01:23|/IBM/websphere/was85/profiles/UAT2-H_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC030_UAT2-H_APPNODE01|UAT2-H_WAS_ECM_HK_DC_HKLVAPMTC030_UAT2-H_APPNODE01
+wasadm|10432||03:16|00:01:19|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE03/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC030_PT-E_APPNODE03|PT-E_WAS_ECM_HK_DC_HKLVAPMTC030_PT-E_APPNODE03
+wasadm|8574||03:16|00:00:49|/IBM/websphere/was85/profiles/UAT2-H_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC030_UAT2-H_APPNODE01|nodeagent
+wasadm|9732||03:16|00:00:49|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE03/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC030_PT-E_APPNODE03|nodeagent
+4
+0
+atosmon    39394   39303  0 03:50 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc030
+atosmon    39397   39303  0 03:50 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:50:37 HKT 2025
+
+
+
+
+==============================================
+
+
+atosmon@hklvapmtc031[~] $ uptime
+ 03:50:59 up 35 min,  1 user,  load average: 0.31, 0.18, 0.18
+atosmon@hklvapmtc031[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:51:01 HKT 2025
+hklvapmtc031
+10.7.175.163 10.7.175.163
+currently running JVM/Intance details
+wasadm|10425||03:16|00:01:14|/IBM/websphere/was85/profiles/UAT3-I_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC031_UAT3-I_APPNODE01|UAT3-I_WAS_ECM_HK_DC_HKLVAPMTC031_UAT3-I_APPNODE01
+wasadm|10455||03:16|00:01:13|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE04/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC031_PT-E_APPNODE04|PT-E_WAS_ECM_HK_DC_HKLVAPMTC031_PT-E_APPNODE04
+wasadm|7930||03:16|00:00:49|/IBM/websphere/was85/profiles/PT-E_WAS_ECM_APPNODE04/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC031_PT-E_APPNODE04|nodeagent
+wasadm|9808||03:16|00:00:48|/IBM/websphere/was85/profiles/UAT3-I_WAS_ECM_APPNODE01/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC031_UAT3-I_APPNODE01|nodeagent
+4
+0
+atosmon    40159   40060  0 03:51 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc031
+atosmon    40162   40060  0 03:51 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:51:01 HKT 2025
+
+
+
+
+=================================================
+
+
+atosmon@hklvapmtc032[~] $ uptime
+ 03:51:27 up 36 min,  1 user,  load average: 0.10, 0.13, 0.20
+atosmon@hklvapmtc032[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sat Feb 22 03:51:29 HKT 2025
+hklvapmtc032
+10.7.175.164 10.7.175.164
+currently running JVM/Intance details
+wasadm|10191||03:16|00:01:17|/IBM/websphere/was85/profiles/UAT-G_WAS_ECM_APPNODE02/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC032_UAT-G_APPNODE02|UAT-G_WAS_ECM_HK_DC_HKLVAPMTC032_UAT-G_APPNODE02
+wasadm|10206||03:16|00:01:13|/IBM/websphere/was85/profiles/BTL-F_WAS_ECM_APPNODE02/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC032_BTL-F_APPNODE02|BTL-F_WAS_ECM_HK_DC_HKLVAPMTC032_BTL-F_APPNODE02
+wasadm|8838||03:15|00:00:49|/IBM/websphere/was85/profiles/BTL-F_WAS_ECM_APPNODE02/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC032_BTL-F_APPNODE02|nodeagent
+wasadm|9645||03:16|00:00:48|/IBM/websphere/was85/profiles/UAT-G_WAS_ECM_APPNODE02/config|PPRD_WAS_ECM_HK_CELL|HKLVAPMTC032_UAT-G_APPNODE02|nodeagent
+4
+0
+atosmon    39179   39093  0 03:51 pts/0    00:00:00 grep --color=auto -i atm
+hklvapmtc032
+atosmon    39182   39093  0 03:51 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sat Feb 22 03:51:29 HKT 2025
+
+
+
