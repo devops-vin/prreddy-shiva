@@ -1,0 +1,456 @@
+hklvapapq678
+
+atosmon@hklvapapq678[~] $ uptime
+ 03:01:09 up 15 min,  1 user,  load average: 0.33, 1.52, 2.22
+atosmon@hklvapapq678[~] $ date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l;date ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;date;ps -ef|grep -i atm; ps -ef |grep nginx;
+Sun Feb 23 03:01:19 HKT 2025
+hklvapapq678
+jbossadm|15626||02:48|00:01:57|-cp|/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/lz4-java-1.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-tools-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-annotations-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-client-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/commons-lang3-3.5.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/plexus-utils-3.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlets-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/snappy-java-1.1.7.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-core-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-module-jaxb-annotations-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/maven-artifact-3.5.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.servlet-api-3.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-common-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-api-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/slf4j-api-1.7.25.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-reflect-2.11.12.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-logging_2.11-3.7.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-server-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/guava-20.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/aopalliance-repackaged-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-core-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.annotation-api-1.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-server-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-log4j-appender-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-io-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/metrics-core-2.2.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-util-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-test-utils-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/validation-api-1.1.0.Final.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-databind-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jopt-simple-5.0.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/argparse4j-0.7.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-client-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-media-jaxb-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-slf4j-impl-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zookeeper-3.4.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-core-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-api-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-examples-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-security-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/rocksdbjni-5.7.3.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlet-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-api-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-transforms-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.21.0-GA.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-library-2.11.12.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-base-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zkclient-0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.ws.rs-api-2.0.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-clients-1.1.0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka_2.11-1.1.0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-file-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-json-provider-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-http-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-continuation-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-utils-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-runtime-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.20.0-GA.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/osgi-resource-locator-1.0.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-guava-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/reflections-0.9.11.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-locator-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-json-1.1.0.jar|kafka.Kafka|/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/config/server.properties
+jbossadm|2344||02:45|00:08:22|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_01_RTOB_ASA/configuration/PRD_01_RTOB_ASA.properties
+jbossadm|3227||02:45|00:08:09|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_02_RTOB_ASA/configuration/PRD_02_RTOB_ASA.properties
+jbossadm|4115||02:45|00:07:53|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_03_RTOB_ASA/configuration/PRD_03_RTOB_ASA.properties
+jbossadm|4981||02:45|00:08:36|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_04_RTOB_ASA/configuration/PRD_04_RTOB_ASA.properties
+jbossadm|5786||02:45|00:00:45|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_05_RTOB_ASA/configuration/PRD_05_RTOB_ASA.properties
+jbossadm|6804||02:45|00:00:47|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_06_RTOB_ASA/configuration/PRD_06_RTOB_ASA.properties
+jbossadm|7563||02:46|00:05:03|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_07_RTOB_ASA/configuration/PRD_07_RTOB_ASA.properties
+Sun Feb 23 03:01:19 HKT 2025
+hklvapapq678
+8
+Sun Feb 23 03:01:19 HKT 2025
+0
+Sun Feb 23 03:01:20 HKT 2025
+atosmon    34047   33530  0 03:01 pts/0    00:00:00 grep --color=auto -i atm
+atosmon    34049   33530  0 03:01 pts/0    00:00:00 grep --color=auto nginx
+
+
+=============================================================
+
+hklvapapq679
+
+atosmon@hklvapapq679[~] $ uptime
+ 03:02:08 up 16 min,  1 user,  load average: 0.37, 1.07, 1.75
+atosmon@hklvapapq679[~] $ date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l;date ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;date;ps -ef|grep -i atm;date;ps -ef|grep nginxadm;ps -ef|grep liberty;date;
+Sun Feb 23 03:02:13 HKT 2025
+hklvapapq679
+jbossadm|2689||02:45|00:06:47|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_01_RTOB_ASA/configuration/PRD_01_RTOB_ASA.properties
+jbossadm|3259||02:45|00:06:25|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_02_RTOB_ASA/configuration/PRD_02_RTOB_ASA.properties
+jbossadm|4288||02:45|00:06:48|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_03_RTOB_ASA/configuration/PRD_03_RTOB_ASA.properties
+jbossadm|5308||02:45|00:06:31|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_04_RTOB_ASA/configuration/PRD_04_RTOB_ASA.properties
+jbossadm|56151||02:47|00:00:54|-cp|/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/lz4-java-1.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-tools-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-annotations-2.9.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-client-2.25.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/commons-lang3-3.5.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/plexus-utils-3.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlets-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/snappy-java-1.1.7.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-core-2.9.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-module-jaxb-annotations-2.9.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/maven-artifact-3.5.2.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.servlet-api-3.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-common-2.25.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-api-2.17.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/slf4j-api-1.7.25.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-reflect-2.11.12.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-logging_2.11-3.7.2.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-server-2.25.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/guava-20.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/aopalliance-repackaged-2.5.0-b32.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-core-2.25.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-2.25.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.annotation-api-1.2.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-server-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-log4j-appender-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-io-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/metrics-core-2.2.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-util-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-2.5.0-b32.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-test-utils-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/validation-api-1.1.0.Final.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-databind-2.9.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jopt-simple-5.0.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/argparse4j-0.7.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-client-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-media-jaxb-2.25.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-slf4j-impl-2.17.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zookeeper-3.4.10.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-core-2.17.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-api-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-examples-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-security-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/rocksdbjni-5.7.3.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlet-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-api-2.5.0-b32.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-transforms-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.21.0-GA.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-library-2.11.12.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-base-2.9.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zkclient-0.10.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.ws.rs-api-2.0.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-clients-1.1.0.10.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka_2.11-1.1.0.10.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-file-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-json-provider-2.9.4.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-http-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-continuation-9.2.24.v20180105.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-utils-2.5.0-b32.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-runtime-1.1.0.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.20.0-GA.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/osgi-resource-locator-1.0.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-guava-2.25.1.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/reflections-0.9.11.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-locator-2.5.0-b32.jar:/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-json-1.1.0.jar|kafka.Kafka|/pegasupport/PRD_05_RTOB_ASA/pegatemp/kafka-1.1.0.10/config/server.properties
+jbossadm|6306||02:45|00:06:50|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_05_RTOB_ASA/configuration/PRD_05_RTOB_ASA.properties
+jbossadm|7168||02:45|00:00:35|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_06_RTOB_ASA/configuration/PRD_06_RTOB_ASA.properties
+jbossadm|7773||02:45|00:00:35|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_07_RTOB_ASA/configuration/PRD_07_RTOB_ASA.properties
+jbossadm|89734||02:48|00:01:24|-cp|/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/lz4-java-1.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-tools-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-annotations-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-client-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/commons-lang3-3.5.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/plexus-utils-3.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlets-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/snappy-java-1.1.7.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-core-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-module-jaxb-annotations-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/maven-artifact-3.5.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.servlet-api-3.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-common-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-api-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/slf4j-api-1.7.25.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-reflect-2.11.12.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-logging_2.11-3.7.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-server-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/guava-20.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/aopalliance-repackaged-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-core-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.annotation-api-1.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-server-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-log4j-appender-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-io-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/metrics-core-2.2.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-util-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-test-utils-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/validation-api-1.1.0.Final.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-databind-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jopt-simple-5.0.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/argparse4j-0.7.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-client-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-media-jaxb-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-slf4j-impl-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zookeeper-3.4.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-core-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-api-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-examples-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-security-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/rocksdbjni-5.7.3.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlet-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-api-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-transforms-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.21.0-GA.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-library-2.11.12.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-base-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zkclient-0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.ws.rs-api-2.0.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-clients-1.1.0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka_2.11-1.1.0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-file-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-json-provider-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-http-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-continuation-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-utils-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-runtime-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.20.0-GA.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/osgi-resource-locator-1.0.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-guava-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/reflections-0.9.11.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-locator-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-json-1.1.0.jar|kafka.Kafka|/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/config/server.properties
+Sun Feb 23 03:02:13 HKT 2025
+hklvapapq679
+9
+Sun Feb 23 03:02:13 HKT 2025
+0
+Sun Feb 23 03:02:13 HKT 2025
+atosmon   195495  195242  0 03:02 pts/0    00:00:00 grep --color=auto -i atm
+Sun Feb 23 03:02:13 HKT 2025
+atosmon   195498  195242  0 03:02 pts/0    00:00:00 grep --color=auto nginxadm
+atosmon   195500  195242  0 03:02 pts/0    00:00:00 grep --color=auto liberty
+Sun Feb 23 03:02:13 HKT 2025
+
+==============================================================================
+
+hklvapapq680
+
+atosmon@hklvapapq680[~] $ uptime
+ 03:03:00 up 12 min,  1 user,  load average: 1.13, 3.85, 3.83
+atosmon@hklvapapq680[~] $ date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l;date ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;date;ps -ef|grep -i atm;date;ps -ef|grep nginxadm;ps -ef|grep liberty;date;
+Sun Feb 23 03:03:03 HKT 2025
+hklvapapq680
+jbossadm|19377||02:53|00:01:23|-cp|/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/lz4-java-1.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-tools-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-annotations-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-client-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/commons-lang3-3.5.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/plexus-utils-3.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlets-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/snappy-java-1.1.7.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-core-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-module-jaxb-annotations-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/maven-artifact-3.5.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.servlet-api-3.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-common-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-api-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/slf4j-api-1.7.25.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-reflect-2.11.12.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-logging_2.11-3.7.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-server-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/guava-20.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/aopalliance-repackaged-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-core-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-container-servlet-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.annotation-api-1.2.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-server-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-log4j-appender-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-io-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/metrics-core-2.2.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-util-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.inject-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-test-utils-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/validation-api-1.1.0.Final.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-databind-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jopt-simple-5.0.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/argparse4j-0.7.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-client-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-media-jaxb-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-slf4j-impl-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zookeeper-3.4.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/log4j-core-2.17.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-api-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-examples-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-security-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/rocksdbjni-5.7.3.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-servlet-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-api-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-transforms-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.21.0-GA.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/scala-library-2.11.12.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-base-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/zkclient-0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javax.ws.rs-api-2.0.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-clients-1.1.0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka_2.11-1.1.0.10.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/kafka-streams-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-file-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jackson-jaxrs-json-provider-2.9.4.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-http-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jetty-continuation-9.2.24.v20180105.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-utils-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-runtime-1.1.0.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/javassist-3.20.0-GA.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/osgi-resource-locator-1.0.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/jersey-guava-2.25.1.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/reflections-0.9.11.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/hk2-locator-2.5.0-b32.jar:/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/libs/connect-json-1.1.0.jar|kafka.Kafka|/pegasupport/PRD_01_RTOB_ASA/pegatemp/kafka-1.1.0.10/config/server.properties
+jbossadm|2366||02:50|00:11:43|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_01_RTOB_ASA/configuration/PRD_01_RTOB_ASA.properties
+jbossadm|3025||02:50|00:13:26|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_02_RTOB_ASA/configuration/PRD_02_RTOB_ASA.properties
+jbossadm|3584||02:50|00:11:26|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_03_RTOB_ASA/configuration/PRD_03_RTOB_ASA.properties
+jbossadm|4286||02:50|00:11:24|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_04_RTOB_ASA/configuration/PRD_04_RTOB_ASA.properties
+jbossadm|4876||02:50|00:00:59|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_05_RTOB_ASA/configuration/PRD_05_RTOB_ASA.properties
+jbossadm|5609||02:50|00:00:57|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_06_RTOB_ASA/configuration/PRD_06_RTOB_ASA.properties
+jbossadm|6313||02:50|00:00:58|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_07_RTOB_ASA/configuration/PRD_07_RTOB_ASA.properties
+Sun Feb 23 03:03:03 HKT 2025
+hklvapapq680
+8
+Sun Feb 23 03:03:03 HKT 2025
+0
+Sun Feb 23 03:03:04 HKT 2025
+atosmon    31959   31835  0 03:03 pts/0    00:00:00 grep --color=auto -i atm
+Sun Feb 23 03:03:04 HKT 2025
+atosmon    31962   31835  0 03:03 pts/0    00:00:00 grep --color=auto nginxadm
+atosmon    31964   31835  0 03:03 pts/0    00:00:00 grep --color=auto liberty
+Sun Feb 23 03:03:04 HKT 2025
+
+
+=======================================================
+
+
+hklvapapq850
+
+atosmon@hklvapapq850[~] $ uptime
+ 03:03:48 up 18 min,  1 user,  load average: 0.46, 0.60, 0.94
+atosmon@hklvapapq850[~] $ date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l;date ;ps -ef | grep liberty | grep " 1 ";ps -ef|grep httpd|grep " 1 ";ps -ef|grep nginx|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;date;ps -ef|grep -i atm;date
+Sun Feb 23 03:03:50 HKT 2025
+hklvapapq850
+jbossadm|2742||02:45|00:00:34|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_01_RTOB_AES/configuration/PRD_01_RTOB_AES.properties
+jbossadm|3555||02:45|00:00:23|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_02_RTOB_AES/configuration/PRD_02_RTOB_AES.properties
+jbossadm|6028||02:46|00:11:33|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_05_RTOB_ASA/configuration/PRD_05_RTOB_ASA.properties
+jbossadm|7238||02:46|00:00:33|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_06_RTOB_ASA/configuration/PRD_06_RTOB_ASA.properties
+jbossadm|8283||02:46|00:00:33|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.3/instances/PRD_07_RTOB_ASA/configuration/PRD_07_RTOB_ASA.properties
+Sun Feb 23 03:03:50 HKT 2025
+hklvapapq850
+5
+Sun Feb 23 03:03:50 HKT 2025
+0
+Sun Feb 23 03:03:50 HKT 2025
+atosmon    38452   38238  0 03:03 pts/0    00:00:00 grep --color=auto -i atm
+Sun Feb 23 03:03:51 HKT 2025
+
+
+=============================================================
+
+
+hklvapapq891
+
+atosmon@hklvapapq891[~] $ uptime
+ 03:05:31 up 20 min,  1 user,  load average: 1.56, 1.05, 0.82
+atosmon@hklvapapq891[~] $ date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l;date ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;date;ps -ef|grep -i atm; ps -ef |grep nginx;
+Sun Feb 23 03:06:03 HKT 2025
+hklvapapq891
+Sun Feb 23 03:06:03 HKT 2025
+hklvapapq891
+0
+Sun Feb 23 03:06:03 HKT 2025
+httpadm     2101       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_AE_PRD_01 -k start
+httpadm     4632       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_AE_PRD_02 -k start
+httpadm     6978       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_BH_PRD_01 -k start
+httpadm     7468       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_BH_PRD_02 -k start
+httpadm     7859       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_IN_PRD_01 -k start
+httpadm    10203       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_IN_PRD_02 -k start
+httpadm    12528       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_LK_PRD_01 -k start
+httpadm    13041       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_LK_PRD_02 -k start
+httpadm    13540       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_MY_PRD_01 -k start
+httpadm    15885       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_MY_PRD_02 -k start
+httpadm    18404       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_PX_PRD_01 -k start
+httpadm    19084       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_PX_PRD_03 -k start
+httpadm    19468       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_SG_PRD_01 -k start
+httpadm    21765       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_SG_PRD_02 -k start
+httpadm    24092       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-CHL_VN_PRD_01 -k start
+httpadm    24450       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_IN_PRD_01 -k start
+httpadm    24887       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_IN_PRD_02 -k start
+httpadm    25270       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_IN_PRD_03 -k start
+httpadm    25590       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_MY_PRD_01 -k start
+httpadm    25966       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_MY_PRD_02 -k start
+httpadm    26400       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_MY_PRD_03 -k start
+httpadm    26781       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_SG_PRD_01 -k start
+httpadm    27163       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_SG_PRD_02 -k start
+httpadm    27509       1  0 02:44 ?        00:00:00 httpd -d /apps/httpd/instances/https-RTOB-PGA_SG_PRD_03 -k start
+24
+Sun Feb 23 03:06:04 HKT 2025
+atosmon    58186   57418  0 03:06 pts/0    00:00:00 grep --color=auto -i atm
+atosmon    58188   57418  0 03:06 pts/0    00:00:00 grep --color=auto nginx
+
+
+==========================================================
+
+
+hklxasapp020
+
+atosmon@hklxasapp020[~] $ uptime
+ 03:07:16 up 8 min,  1 user,  load average: 0.91, 1.03, 0.68
+atosmon@hklxasapp020[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:07:21 HKT 2025
+hklxasapp020
+10.23.71.73 10.23.34.98
+currently running JVM/Intance details
+0
+httpadm     2051       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_01_RTOB_03_IN -k start
+httpadm     4456       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_02_RTOB_03_SG -k start
+httpadm     6808       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_03_RTOB_03_MY -k start
+httpadm     9124       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_04_RTOB_03_HK -k start
+httpadm    11408       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_05_RTOB_03_PK -k start
+httpadm    13662       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_06_RTOB_03_BD -k start
+httpadm    16012       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_07_RTOB_03_LK -k start
+httpadm    18290       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_08_RTOB_03_VN -k start
+httpadm    20546       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_09_RTOB_03_BH -k start
+httpadm    22840       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_10_RTOB_03_JO -k start
+httpadm    25157       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_11_RTOB_03_AE -k start
+httpadm    27487       1  0 02:58 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_12_RTOB_03_AM -k start
+12
+atosmon    44585   41126  0 03:07 pts/0    00:00:00 grep --color=auto -i atm
+hklxasapp020
+atosmon    44588   41126  0 03:07 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:07:21 HKT 2025
+atosmon@hklxasapp020[~] $
+
+
+========================================================
+
+
+hklxasapp021
+
+atosmon@hklxasapp021[~] $ uptime
+ 03:08:11 up 10 min,  1 user,  load average: 0.36, 0.67, 0.52
+atosmon@hklxasapp021[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:08:16 HKT 2025
+hklxasapp021
+10.23.71.74 10.23.34.99
+currently running JVM/Intance details
+0
+httpadm     2105       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_01_RTOB_04_IN -k start
+httpadm     4375       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_02_RTOB_04_SG -k start
+httpadm     6704       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_03_RTOB_04_MY -k start
+httpadm     8964       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_04_RTOB_04_HK -k start
+httpadm    11187       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_05_RTOB_04_PK -k start
+httpadm    13444       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_06_RTOB_04_BD -k start
+httpadm    15758       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_07_RTOB_04_LK -k start
+httpadm    18127       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_08_RTOB_04_VN -k start
+httpadm    20379       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_09_RTOB_04_BH -k start
+httpadm    22648       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_10_RTOB_04_JO -k start
+httpadm    24934       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_11_RTOB_04_AE -k start
+httpadm    27277       1  0 02:57 ?        00:00:00 httpd -d /apps/httpd/instances/https-PRD_12_RTOB_04_AM -k start
+12
+atosmon    46033   42729  0 03:08 pts/0    00:00:00 grep --color=auto -i atm
+hklxasapp021
+atosmon    46036   42729  0 03:08 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:08:16 HKT 2025
+
+
+==============================================================
+
+
+hklvapapp645
+
+atosmon@HKLVAPAPP645[~] $ uptime
+ 03:16:28 up 1 min,  1 user,  load average: 34.97, 12.28, 4.39
+atosmon@HKLVAPAPP645[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:16:32 HKT 2025
+HKLVAPAPP645
+10.23.93.190
+currently running JVM/Intance details
+jbossadm|3963||03:14|00:03:37|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_AE_01/configuration/PRD_ICM_AE_01.properties
+jbossadm|5177||03:14|00:03:19|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_BD_01/configuration/PRD_ICM_BD_01.properties
+jbossadm|7097||03:14|00:03:25|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_MY_01/configuration/PRD_ICM_MY_01.properties
+jbossadm|7880||03:15|00:02:49|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_O3HUB02_SEC_01/configuration/PRD_ICM_O3HUB02_SEC_01.properties
+jbossadm|8691||03:15|00:02:25|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_O3HUB_SEC_01/configuration/PRD_ICM_O3HUB_SEC_01.properties
+jbossadm|9525||03:15|00:02:44|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_SG_01/configuration/PRD_ICM_SG_01.properties
+jbossadm|9923||03:15|00:03:10|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_SG_EOD_01/configuration/PRD_ICM_SG_EOD_01.properties
+7
+jbossadm  3675     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-AE -k start
+jbossadm  4178     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-API-BD -k start
+jbossadm  4488     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-API-MY -k start
+jbossadm  4768     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-API-SG -k start
+jbossadm  5247     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-BD -k start
+jbossadm  5523     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-EDMI-AE -k start
+jbossadm  5835     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-EDMI-BD -k start
+jbossadm  6126     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-EDMI-MY -k start
+jbossadm  6411     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-EDMI-SG -k start
+jbossadm  6924     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-MY -k start
+jbossadm  7283     1  0 03:14 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-O3HUB02-SEC -k start
+jbossadm  7459     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-O3HUB-SEC -k start
+jbossadm  7934     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP645-ICM-SG -k start
+13
+atosmon  21112 20396  0 03:16 pts/0    00:00:00 grep --color=auto -i atm
+HKLVAPAPP645
+atosmon  21120 20396  0 03:16 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:16:33 HKT 2025
+atosmon@HKLVAPAPP645[~] $
+
+
+==============================================================
+
+hklvapapp646
+
+atosmon@HKLVAPAPP646[~] $ uptime
+ 03:18:30 up 3 min,  1 user,  load average: 2.50, 4.85, 2.32
+atosmon@HKLVAPAPP646[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:18:34 HKT 2025
+HKLVAPAPP646
+10.23.93.192
+currently running JVM/Intance details
+jbossadm|10232||03:15|00:02:04|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_O3HUB_SEC_02/configuration/PRD_ICM_O3HUB_SEC_02.properties
+jbossadm|10895||03:15|00:02:19|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_SG_02/configuration/PRD_ICM_SG_02.properties
+jbossadm|5969||03:15|00:02:17|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_AE_02/configuration/PRD_ICM_AE_02.properties
+jbossadm|6448||03:15|00:03:35|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_BD_02/configuration/PRD_ICM_BD_02.properties
+jbossadm|7628||03:15|00:03:37|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_MY_02/configuration/PRD_ICM_MY_02.properties
+jbossadm|8941||03:15|00:00:42|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_MY_EOD_01/configuration/PRD_ICM_MY_EOD_01.properties
+jbossadm|9740||03:15|00:02:28|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.0/instances/PRD_ICM_O3HUB02_SEC_02/configuration/PRD_ICM_O3HUB02_SEC_02.properties
+7
+jbossadm  6343     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-AE -k start
+jbossadm  6605     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-API-BD -k start
+jbossadm  6817     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-API-MY -k start
+jbossadm  6999     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-API-SG -k start
+jbossadm  7246     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-BD -k start
+jbossadm  7634     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-EDMI-AE -k start
+jbossadm  7902     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-EDMI-BD -k start
+jbossadm  8090     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-EDMI-MY -k start
+jbossadm  8380     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-EDMI-SG -k start
+jbossadm  8693     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-MY -k start
+jbossadm  8958     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-O3HUB02-SEC -k start
+jbossadm  9117     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-O3HUB-SEC -k start
+jbossadm  9263     1  0 03:15 ?        00:00:00 /jboss/httpd/jws3_1/jws-httpdBase/httpd/sbin/httpd -d /jboss/httpd/jws3_1/instances/https-PRD-HKLVAPAPP646-ICM-SG -k start
+13
+atosmon  26994 26737  0 03:18 pts/0    00:00:00 grep --color=auto -i atm
+HKLVAPAPP646
+atosmon  27000 26737  0 03:18 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:18:35 HKT 2025
+atosmon@HKLVAPAPP646[~] $
+
+
+===================================================
+
+
+hklvapaps578
+
+atosmon@hklvapaps578[~] $ uptime
+ 03:19:05 up 3 min,  1 user,  load average: 2.47, 4.78, 2.30
+atosmon@hklvapaps578[~] $  date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:19:08 HKT 2025
+hklvapaps578
+10.7.183.49
+currently running JVM/Intance details
+jbossadm|2075||03:15|00:01:16|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_CRUD_P578_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|2327||03:15|00:01:26|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_DEDUP_P578_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|2599||03:15|00:00:41|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_ENQ_P578_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|2655||03:15|00:02:44|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.4/instances/PRD_01_ICM_P578_HK/configuration/PRD_01_ICM_P578_HK.properties
+jbossadm|2855||03:15|00:00:41|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_REPORTS_P578_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|3239||03:15|00:00:42|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_ULA_P578_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|3432||03:15|00:00:48|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_UPLOAD_P578_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|3856||03:15|00:02:04|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.4/instances/PRD_01_ICMSEC_P578_HK/configuration/PRD_01_ICMSEC_P578_HK.properties
+8
+0
+atosmon    15249   15154  0 03:19 pts/0    00:00:00 grep --color=auto -i atm
+hklvapaps578
+atosmon    15252   15154  0 03:19 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:19:08 HKT 2025
+atosmon@hklvapaps578[~] $
+
+
+=================================================================
+
+
+hklvapaps579
+
+atosmon@hklvapaps579[~] $ uptime
+ 03:19:34 up 4 min,  1 user,  load average: 1.10, 3.77, 1.98
+atosmon@hklvapaps579[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:19:36 HKT 2025
+hklvapaps579
+10.7.183.50
+currently running JVM/Intance details
+jbossadm|1868||03:15|00:01:26|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_CRUD_P579_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|2056||03:15|00:01:09|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_DEDUP_P579_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|2252||03:15|00:00:40|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_ENQ_P579_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|2529||03:15|00:00:40|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_REPORTS_P579_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|2761||03:15|00:00:43|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_ULA_P579_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|3055||03:15|00:00:48|-Dcatalina.home=/jboss/tomcat/jws5/jws-tomcatBase/tomcat|-Djava.io.tmpdir=/jboss/tomcat/jws5/instances/PRD_01_ICM_UPLOAD_P579_HK/temp|org.apache.catalina.startup.Bootstrap|start
+jbossadm|3459||03:15|00:02:14|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.4/instances/PRD_01_ICM_P579_HK/configuration/PRD_01_ICM_P579_HK.properties
+jbossadm|4266||03:15|00:01:24|-c|SCBstandalone-full-ha.xml|-P|/jboss/eap/7.4/instances/PRD_01_ICMSEC_P579_HK/configuration/PRD_01_ICMSEC_P579_HK.properties
+8
+0
+atosmon    18563   18373  0 03:19 pts/0    00:00:00 grep --color=auto -i atm
+hklvapaps579
+atosmon    18566   18373  0 03:19 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:19:36 HKT 2025
+atosmon@hklvapaps579[~] $
+
+==========================================================
+
+
+hklvapweb031
+
+atosmon@hklvapweb031[~] $ uptime
+ 03:20:04 up 5 min,  1 user,  load average: 1.40, 1.28, 0.66
+atosmon@hklvapweb031[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:20:07 HKT 2025
+hklvapweb031
+10.7.183.51
+currently running JVM/Intance details
+0
+httpadm     1923       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_CRUD_PRD_01 -k start
+httpadm     2431       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_DEDUP_PRD_01 -k start
+httpadm     2898       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_ENQ_PRD_01 -k start
+httpadm     3152       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_ONLINE_PRD_01 -k start
+httpadm     3383       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_REPORTS_PRD_01 -k start
+httpadm     3625       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_SEC_PRD_01 -k start
+httpadm     3926       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_ULA_PRD_01 -k start
+httpadm     4271       1  0 03:15 ?        00:00:00 httpd -d /apps/httpd/instances/https-HK_ICM_UPLOAD_PRD_01 -k start
+8
+atosmon    19406   19238  0 03:20 pts/0    00:00:00 grep --color=auto -i atm
+hklvapweb031
+atosmon    19409   19238  0 03:20 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:20:07 HKT 2025
+
+
+===================================================================
+
+
+hklvasapp563
+
+atosmon@hklvasapp563[~] $ uptime
+ 03:20:54 up 7 min,  1 user,  load average: 0.06, 0.26, 0.19
+atosmon@hklvasapp563[~] $ date ; hostname ; hostname -i;echo -e "\033[42;5mcurrently running JVM/Intance details\033[0m";ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|wasadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;ps -ef|grep -i atm;hostname;ps -ef|grep nginxadm -i;date
+Sun Feb 23 03:20:56 HKT 2025
+hklvasapp563
+10.23.93.99
+currently running JVM/Intance details
+0
+httpadm   5219     1  0 03:13 ?        00:00:00 /usr/sbin/httpd -d /apps/httpd/instances/https-HKLVASAPP563_OMFMY_DR -k start
+1
+atosmon  19924 19782  0 03:20 pts/0    00:00:00 grep --color=auto -i atm
+hklvasapp563
+atosmon  19927 19782  0 03:20 pts/0    00:00:00 grep --color=auto nginxadm -i
+Sun Feb 23 03:20:56 HKT 2025
+
+
+======================================================
+
+
+hklvasapp663
+
+atosmon@hklvasapp663[~] $ uptime
+ 08:00:45 up  2:49,  1 user,  load average: 0.17, 0.12, 0.15
+atosmon@hklvasapp663[~] $ date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l;date ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;date;ps -ef|grep -i atm;date;ps -ef|grep nginxadm;ps -ef|grep liberty;date;
+Sun Feb 23 08:00:50 HKT 2025
+hklvasapp663
+tomadm|4208||05:11|00:01:12|-Djava.io.tmpdir=/apps/tomcat/instances/DR_HKOMF_HUB_HK_01/temp|-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager|org.apache.catalina.startup.Bootstrap|start
+tomadm|4521||05:11|00:01:11|-Djava.io.tmpdir=/apps/tomcat/instances/PRD_HKOMF_FOA_02/temp|-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager|org.apache.catalina.startup.Bootstrap|start
+tomadm|4597||05:11|00:01:04|-Djava.io.tmpdir=/apps/tomcat/instances/PRD_OMFSG_HK_BOA_02/temp|-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager|org.apache.catalina.startup.Bootstrap|start
+Sun Feb 23 08:00:50 HKT 2025
+hklvasapp663
+3
+Sun Feb 23 08:00:50 HKT 2025
+httpadm   4278     1  0 05:11 ?        00:00:00 /usr/sbin/httpd -d /apps/httpd/instances/https-HKLVASAPP663_HKOMF_DR -k start
+1
+Sun Feb 23 08:00:50 HKT 2025
+atosmon  23084 22954  0 08:00 pts/0    00:00:00 grep --color=auto -i atm
+Sun Feb 23 08:00:50 HKT 2025
+atosmon  23087 22954  0 08:00 pts/0    00:00:00 grep --color=auto nginxadm
+atosmon  23089 22954  0 08:00 pts/0    00:00:00 grep --color=auto liberty
+Sun Feb 23 08:00:50 HKT 2025
+
+
+=========================================================
+
+
+hklxasomf001
+
+atosmon@hklxasomf001[~] $ uptime
+ 03:54:30 up 32 min,  1 user,  load average: 0.08, 0.15, 0.17
+atosmon@hklxasomf001[~] $ date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|httpadm|tomadm|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort;date ; hostname;ps -ef|grep java|egrep "Dwas|atm|apache|jbossadm|tomcat"|grep -v grep|awk {'print $1 "|" $2 "|" "|" $5 "|"$7 "|" $(NF-3) "|" $(NF-2) "|" $(NF-1) "|" $NF'}|uniq|sort|wc -l;date ;ps -ef|grep httpd|grep " 1 ";ps -ef|grep httpd|grep " 1 " |wc -l ;date;ps -ef|grep -i atm;date;ps -ef|grep nginxadm;ps -ef|grep liberty;date;
+Sun Feb 23 03:54:34 HKT 2025
+hklxasomf001
+Sun Feb 23 03:54:34 HKT 2025
+hklxasomf001
+0
+Sun Feb 23 03:54:34 HKT 2025
+0
+Sun Feb 23 03:54:34 HKT 2025
+atosmon   42803  42679  0 03:54 pts/0    00:00:00 grep --color=auto -i atm
+Sun Feb 23 03:54:34 HKT 2025
+atosmon   42806  42679  0 03:54 pts/0    00:00:00 grep --color=auto nginxadm
+atosmon   42808  42679  0 03:54 pts/0    00:00:00 grep --color=auto liberty
+Sun Feb 23 03:54:35 HKT 2025
+
+
